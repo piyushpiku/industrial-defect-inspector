@@ -56,3 +56,11 @@ Below is an example of the model identifying a surface anomaly under varying lig
 ![Model Detection Output](results/demo.png)
 
 > *Note: The bounding box confidence threshold was set to 0.65 for this inference.*
+
+## 🌐 Live Demo
+The application is currently deployed on **Azure Container Instances (ACI)**.
+👉 **Try the API here:** [Industrial Defect Inspector - Live API](http://industrial-defect-api.eastus.azurecontainer.io/docs)
+
+## 🌐 Live Demo
+The application is currently deployed on **Azure Container Instances (ACI)**.
+👉 **Try the API here:** [Industrial Defect Inspector - Live API](http://industrial-defect-api.eastus.azurecontainer.io/docs)
