@@ -64,3 +64,12 @@ The application is currently deployed on **Azure Container Instances (ACI)**.
 ## 🌐 Live Demo
 The application is currently deployed on **Azure Container Instances (ACI)**.
 👉 **Try the API here:** [Industrial Defect Inspector - Live API](http://industrial-defect-api.eastus.azurecontainer.io/docs)
+## 🤖 Agentic AI Capability (Phase 2)
+Beyond simple inference, this project includes an **Agentic Wrapper** (`agent.py`) that acts as an intelligent supervisor.
+
+* **Architecture:** Uses an LLM (OpenAI GPT-4) as the orchestrator.
+* **Tools:** The LLM is equipped with the `inspect_component` tool, allowing it to autonomously call the Azure Computer Vision API.
+* **Workflow:**
+    1.  User gives high-level command (e.g., *"Check the defect on line 3"*).
+    2.  Agent parses intent and executes the API call.
+    3.  Agent interprets the JSON result and returns a natural language summary.
